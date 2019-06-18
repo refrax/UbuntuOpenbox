@@ -41,7 +41,6 @@ clear
     sudo systemctl disable snapd.service snapd.seeded.service snapd.socket
 	sudo update-alternatives --set x-session-manager /usr/bin/openbox-session
     cd /tmp
-    wget shwiggy.com/crubuntung-files.tar.xz
     tar Jxvf crubuntung-files.tar.xz
     chmod +x crubuntung-files/etc/skel/.bin/crubuntung-scripts/*
     mv -f crubuntung-files/english-conkyrc crubuntung-files/etc/skel/.conkyrc
